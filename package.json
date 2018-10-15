@@ -1,0 +1,24 @@
+{
+  "name": "qrcode-component",
+  "version": "0.1.0",
+  "description": "React svg qrcode component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dral/qrcode-component.git"
+  },
+  "keywords": [
+    "react",
+    "qrcode",
+    "react-component"
+  ],
+  "author": "Draltan MARIN <moi@draltan.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dral/qrcode-component/issues"
+  },
+  "homepage": "https://github.com/dral/qrcode-component#readme"
+}
