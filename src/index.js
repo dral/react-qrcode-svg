@@ -15,9 +15,10 @@ const QrCodeSvg = (data, ecLevel) => {
 const QrCode = ({
   data = '',
   ecLevel = 'L',
-  bgColor = '#FFF',
+  bgColor = 'none',
   fgColor = '#000',
   margin = 4,
+  children,
   ...props
 }) => {
   const size = qr.matrix(data, ecLevel).length;
@@ -26,6 +27,7 @@ const QrCode = ({
   const viewBox = `${boxOffset} ${boxOffset} ${boxSize} ${boxSize}`;
   return (
     <svg {...props} viewBox={viewBox}>
+      {children}
       <rect
         x={boxOffset}
         y={boxOffset}
