@@ -1,6 +1,7 @@
 src
 *.test.*
-examples
+demo
 .babelrc
+.eslintrc.*
 .gitignore
 webpack.config.js
