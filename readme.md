@@ -54,7 +54,7 @@ const App = () => (
 
 Produces:
 ```xml
-<svg height="300" width="300" viewBox="-4 -4 37 37">
+<svg ...>
   <linearGradient id="gradientFill" x1="0" y1="0" x2="1" y2=".7">
     <stop offset="0%" stop-color="#f857a6"></stop>
     <stop offset="100%" stop-color="#ff5858"></stop>
