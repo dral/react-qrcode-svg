@@ -64,4 +64,4 @@ Produces:
 </svg>
 ```
 
-![Gradient fill example](demo/example.svg)
+![Gradient fill example](https://raw.githubusercontent.com/dral/react-qrcode-svg/master/demo/example.svg)
